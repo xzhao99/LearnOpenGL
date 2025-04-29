@@ -1,7 +1,8 @@
 # LearnOpenGL
 
 Learning examples from [LearnOpenGL](www.learnopengl.com)
-the [github repo](https://github.com/JoeyDeVries/LearnOpenGL/tree/master)
+
+See the [github repo](https://github.com/JoeyDeVries/LearnOpenGL/tree/master)
 
 ## build instruction
 
