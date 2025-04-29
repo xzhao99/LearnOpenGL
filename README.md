@@ -1,10 +1,11 @@
 # LearnOpenGL
 
 Learning examples from [LearnOpenGL](www.learnopengl.com)
+the [github repo](https://github.com/JoeyDeVries/LearnOpenGL/tree/master)
 
 ## build instruction
 
-Following the original instruction, we use a combination of GLAD as the OpenGL loading library and GLFW to create/manage windows and contexts. However, we use vcpkg as a package manager to import the related libraries. At the time of initiating this example, the OpenGL version is 4.6 on Windows(From OpenGL extension viewer)
+Following the original instruction, we use a combination of ```GLAD``` as the OpenGL loading library and ```GLFW``` to create/manage windows and contexts. However, different from the author's process, we here use ```vcpkg``` as a package manager to import the related libraries. At the time of initiating this example, the OpenGL version is 4.6 on my Windows(info from OpenGL extension viewer)
 
 ```[]
 mkdir build
