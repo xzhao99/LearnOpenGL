@@ -22,10 +22,5 @@ if(glad_FOUND)
   message(STATUS "GLAD_LIBRARIES: ${glad_LIBRARIES}")
 endif()
 
-add_executable(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/src/main.cpp)
-
-target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/src)
-target_link_libraries(${PROJECT_NAME} PRIVATE 
-    ${OpenGL_LIBRARIES} 
-    glad::glad glfw
-)
+add_executable(draw_triangles ${CMAKE_SOURCE_DIR}/src/ch1_draw_triangles/draw_triangles.cpp)
+target_link_libraries(draw_triangles PRIVATE ${OpenGL_LIBRARIES} glad::glad glfw)
